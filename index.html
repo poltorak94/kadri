@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <title>Кадровый центр</title>
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.min.css" async>
+    <link rel="stylesheet" href="./assets/modal/jquery.arcticmodal-0.3.css" async>
+    <link rel="stylesheet" href="./assets/fancybox/dist/jquery.fancybox.min.css" async>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <img src="./assets/images/logo.png" alt="" class="logo">
+                <div class="nav__items-container">
+                    <div class="nav__items">
+                        <a href="#tariffs" class="nav__item">Тарифы</a>
+                        <a href="#reviews" class="nav__item">Сертификаты</a>
+                        <a href="#advantages" class="nav__item">Преимущества</a>
+                        <a href="#about" class="nav__item">О компании</a>
+                        <a href="#contacts" class="nav__item">Контакты</a>
+                    </div>
+                </div>
+                <div class="nav__tels">
+                    <a href="tel:8(800)2017774" class="nav__tel">8 (800) 201 <span>77 74</span></a>
+                    <a href="tel:8(991)0337774" class="nav__tel">8 (991) 033 <span>77 74</span></a>
+                </div>
+                <a href="#" class="burger">
+                    <img src="./assets/images/burger.png" alt="">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <div class="main-section__container container">
+                <form class="main-section__form">
+                    <div class="main-section__form-title">Подбор кандидатов для строительных работ! </div>
+                    <div class="main-section__form-description">Подберем 10 резюме уже через 24 часа</div>
+                    <div class="main-section__form-inner">
+                        <div class="form-group">
+                            <div class="form-group__title">Ваше Имя*</div>
+                            <input type="text" class="custom-input" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group__title">Ваш Телефон*</div>
+                            <input type="text" class="custom-input custom-input--tel" required
+                                placeholder="Введите номер">
+                        </div>
+                        <input type="submit" value="ЗАКАЗАТЬ" class="main-section__form-button button">
+                        <div class="form-note">
+                            Нажимая на кнопку, вы даете согласие на обработку персональных
+                        </div>
+                    </div>
+                    <div class="thanks thanks-block">
+                        <img src="./assets/images/thanks.png" alt="">
+                        <div class="thanks-title">Спасибо!</div>
+                        <div class="thanks-desc">
+                            Ваша заявка принята, мы свяжемся <br>
+                            в Вами в ближайшее время.
+                        </div>
+                    </div>
+                </form>
+                <div class="main-section__title">
+                    Реальная возможность успеха <br>
+                    лежит в самом человеке, <br>
+                    а не в его должности
+                </div>
+            </div>
+        </section>
+        <section class="tariffs" id="tariffs">
+            <div class="container">
+                <div class="title title--red">НАШИ ТАРИФЫ</div>
+                <div class="tariffs__container">
+                    <div class="tariff tariff--1">
+                        <div class="tariff__items">
+                            <div class="tariff__title">БЫСТРЫЙ</div>
+                            <ul>
+                                <li>Создание и согласование вакансии по вашим требованиям и условиям.</li>
+                                <li>Оплата производится перед началом отбора персонала.</li>
+                                <li>Предоставляется 10-ти резюме по вашим требованиям и условиям.</li>
+                                <li>Срок обработки вакансии до 3-х рабочих дней.</li>
+                                <li>Изменения и корректировка условий по договоренности.</li>
+                            </ul>
+                        </div>
+                        <div class="tariff__items">
+                            <div class="tariff-prices">
+                                <div class="tariff__old-price">10000 руб.</div>
+                                <div class="tariff__new-price">5000 <span>руб.</span></div>
+                            </div>
+                            <div class="tariff__button-holder">
+                                <a href="#" class="tariff__button button">УЗНАТЬ БОЛЬШЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff tariff--2">
+                        <div class="tariff__items">
+                            <div class="tariff__title">СТАНДАРТ</div>
+                            <ul>
+                                <li>Создание и согласование вакансии по вашим требованиям и условиям.</li>
+                                <li>Оплата аванса в размере 5000 рублей перед началом отбора персонала.</li>
+                                <li>Отбор потенциальных кандидатов по вашим требованиям и условиям на различных ресурсах
+                                    и
+                                    базах.</li>
+                                <li>Проведения онлайн или офлайн собеседования.</li>
+                                <li>Предоставление до 15-ти резюме кандидатов.</li>
+                                <li>Оплата 10000 рублей после отработки сотрудником рабочего месяца.</li>
+                                <li>Срок обработки вакансии до 1-го месяца.</li>
+                                <li>Изменения и корректировка условий по договоренности.</li>
+                            </ul>
+                        </div>
+                        <div class="tariff__items">
+                            <div class="tariff-prices">
+                                <div class="tariff__old-price">30000 руб.</div>
+                                <div class="tariff__new-price">15000 <span>руб.</span></div>
+                            </div>
+                            <div class="tariff__button-holder">
+                                <a href="#" class="tariff__button button">УЗНАТЬ БОЛЬШЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff tariff--3">
+                        <div class="tariff__items">
+                            <div class="tariff__title">БИЗНЕС</div>
+                            <ul>
+                                <li>Создание и согласование вакансии по вашим требованиям и условиям.</li>
+                                <li>Создание, подготовка и утверждения психологического портрета кандидата.</li>
+                                <li>Оплата аванса в размере 20000 рублей после согласования вакансии и перед началом
+                                    подбора
+                                    кандидата.</li>
+                                <li>Оплата 30000 рублей после отработки сотрудником 1-го рабочего месяца.</li>
+                                <li>Отбор потенциальных кандидатов по вашим требованиям и условиям на различных ресурсах
+                                    и
+                                    базах.</li>
+                                <li>Срок обработки вакансии до 2-х месяцев.</li>
+                                <li>Изменения и корректировка условий по договоренности.</li>
+                            </ul>
+                        </div>
+                        <div class="tariff__items">
+                            <div class="tariff-prices">
+                                <div class="tariff__old-price">70000 руб.</div>
+                                <div class="tariff__new-price">50000 <span>руб.</span></div>
+                            </div>
+                            <div class="tariff__button-holder">
+                                <a href="#" class="tariff__button button">УЗНАТЬ БОЛЬШЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff tariff--4">
+                        <div class="tariff__items">
+                            <div class="tariff__title">ИНДИВИДУАЛЬНЫЕ</div>
+                            <ul>
+                                <li>Индивидуальный подбор.</li>
+                                <li>Массовый отбор персоналом, от 3-х кандидатов на вакансию.</li>
+                                <li>Побор и предоставление бригад и звеньев на любые виды работ и услуг.</li>
+                                <li>Отбор сотрудников для разовых работ и услуг.</li>
+                                <li>Кадровое делопроизводство.</li>
+                                <li>Полное обслуживание организаций по подбору и ведению персонала.</li>
+                            </ul>
+                        </div>
+                        <div class="tariff__items">
+                            <div class="tariff-prices">
+                                Договорная
+                            </div>
+                            <div class="tariff__button-holder">
+                                <a href="#" class="tariff__button button">УЗНАТЬ БОЛЬШЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callback">
+            <div class="container container-callback">
+                <div class="title title--w">ОСТАВЬТЕ ЗАЯВКУ </div>
+                <div class="description">МЫ ОТВЕТИМ ВАМ В БЛИЖАЙШЕЕ ВРЕМЯ </div>
+                <form class="callback-form">
+                    <div class="callback-form__container">
+                        <div class="form-group">
+                            <div class="form-group__title">Ваше Имя*</div>
+                            <input type="text" class="custom-input" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group__title">Ваш Телефон*</div>
+                            <input type="text" class="custom-input custom-input--tel" required
+                                placeholder="Введите номер">
+                        </div>
+                        <input type="submit" value="ОТПРАВИТЬ" class="callback-form__submit button">
+                    </div>
+                    <div class="note">Нажимая на кнопку «ОТПРАВИТЬ» , вы даете согласие на обработку персональных данных
+                        и соглашаетесь c политикой конфиденциальности.</div>
+                </form>
+            </div>
+            <div class="container container-thanks">
+                <img src="./assets/images/thanks-red.png" alt="">
+                <div class="container-thanks-title">Спасибо!</div>
+                <div class="container-thanks-desc">
+                    Ваша заявка принята, мы свяжемся <br>
+                    в Вами в ближайшее время.
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="container container--lg">
+                <div class="title title--red">ЭТАПЫ РАБОТЫ</div>
+                <div class="steps__container">
+                    <div class="steps__items">
+                        <div class="step-item">
+                            <div class="step-item__num">1</div>
+                            Тщательное знакомство с вашим бизнесом и
+                            процессами, составление детального профиля
+                            требуемого кандидата и профессиональной
+                            презентации вакансии клиента.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">2</div>
+                            Размещение вакансии на специальных и
+                            подходящих ресурсах. Активный обзвон соискателей
+                            по открытым и закрытым базам резюме.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">3</div>
+                            Обработка потенциальных работников по
+                            собственной базе и другим возможным каналам.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">4</div>
+                            Анализ резюме, телефонные интервью,
+                            предварительные онлайн тестирования и
+                            приглашение лучших на личную встречу.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">5</div>
+                            Собеседование участников отбора с рекрутерами и
+                            экспертами области.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">6</div>
+                            Оценка соискателей с помощью интервью по
+                            компетенциям с разбором кейсов и ситуационных
+                            задач из прошлого.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">7</div>
+                            Сбор рекомендаций с прежних мест работы
+                            претендента, проверка службой безопасности.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">8</div>
+                            Выбор и предоставление клиенту лучших
+                            кандидатов с развёрнутыми комментариями и
+                            пояснениями. Помощь в совершении окончательного
+                            выбора.
+                        </div>
+                        <div class="step-item">
+                            <div class="step-item__num">9</div>
+                            Гарантийное сопровождение - мягко адаптируем
+                            сотрудника на новом месте работы и даем рекомендации
+                            по эффективному взаимодействию с ним.
+                            Формируем готовые замены из оставшихся кандидатов.
+                        </div>
+                    </div>
+                    <div class="steps__info">
+                        <div class="step-info-item step-info-item--1">
+                            <div class="step-info-item__image-holder">
+                                <img src="./assets/images/rose.png" alt="" class="step-info-item__image">
+                            </div>
+                            <div class="step-info-item__text">1500 резюме</div>
+                        </div>
+                        <div class="step-info-item step-info-item--2">
+                            <div class="step-info-item__image-holder">
+                                <img src="./assets/images/sin.png" alt="" class="step-info-item__image">
+                            </div>
+                            <div class="step-info-item__text">80 телефонных собеседований</div>
+                        </div>
+                        <div class="step-info-item step-info-item--3">
+                            <div class="step-info-item__image-holder">
+                                <img src="./assets/images/yellow.png" alt="" class="step-info-item__image">
+                            </div>
+                            <div class="step-info-item__text">40 кандидатов приглашены на личную встречу</div>
+                        </div>
+                        <div class="step-info-item step-info-item--4">
+                            <div class="step-info-item__image-holder">
+                                <img src="./assets/images/green.png" alt="" class="step-info-item__image">
+                            </div>
+                            <div class="step-info-item__text">5 специалистов предоставлены заказчику</div>
+                        </div>
+                        <div class="step-info-item step-info-item--5">
+                            <div class="step-info-item__image-holder">
+                                <img src="./assets/images/ber.png" alt="" class="step-info-item__image">
+                            </div>
+                            <div class="step-info-item__text">1 специалист выходит на работу</div>
+                        </div>
+                        <div class="step-info__description">
+                            Если по какой-то причине найденные нами сотрудники вам не подходят, мы находим для вас новых
+                            бесплатно
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="title container">БЛАГОДАРСТВЕННЫЕ ПИСЬМА ОТ КОМПАНИЙ</div>
+            <div class="slider-container">
+                <a href="#" class="slider-nav slider-nav--left">
+                    <img src="./assets/images/left.png" alt="">
+                </a>
+                <a href="#" class="slider-nav slider-nav--right">
+                    <img src="./assets/images/right.png" alt="">
+                </a>
+                <div class="container reviews-slider swiper-container">
+                    <div class="reviews__items swiper-wrapper">
+                        <a href="./assets/images/s1.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s1.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s2.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s2.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s3.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s3.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s4.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s4.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s1.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s1.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s2.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s2.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s3.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s3.jpg" alt="" class="scan">
+                        </a>
+                        <a href="./assets/images/s4.jpg" class="scan-review swiper-slide" data-fancybox="gallery">
+                            <img src="./assets/images/s4.jpg" alt="" class="scan">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages" id="advantages">
+            <div class="container">
+                <div class="title title--red">
+                    В ЧЕМ ПРЕИМУЩЕСТВА НАШЕГО <br>
+                    АГЕНТСТВА ПО ПОДБОРУ ПЕРСОНАЛА
+                </div>
+                <div class="advantages__container">
+                    <div class="advantage">
+                        <div class="advantage__header">
+                            <img src="./assets/images/adv1.png" alt="" class="advantage__icon">
+                            <div class="advantage__title"> Специализация <br> направлений рекрутинга </div>
+                        </div>
+                        <div class="advantage__text">
+                            Имеем профильные отделы по отраслям
+                            и сферам деятельности: IT, Финансы, Бухгалтерия,
+                            Маркетинг, Продажи, Логистика, Промышленность
+                            и т.д. В каждом из направлений над закрытием
+                            вакансий работают исключительно рекрутеры
+                            с релевантным опытом, то есть имеющие рабочую
+                            практику именно в данной отрасли.
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage__header">
+                            <img src="./assets/images/adv2.png" alt="" class="advantage__icon">
+                            <div class="advantage__title"> Эксклюзивная база <br> работников </div>
+                        </div>
+                        <div class="advantage__text">
+                            Наличие актуальной и структурированной базы
+                            специалистов из Санкт-Петербурга и других городов
+                            России по конкретным должностям и направлениям,
+                            даёт возможность предоставить первых кандидатов
+                            уже через сутки. Благодаря этому наше кадровое
+                            агентство действует оперативнее других и при этом
+                            направляет проверенных соискателей.
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage__header">
+                            <img src="./assets/images/adv3.png" alt="" class="advantage__icon">
+                            <div class="advantage__title"> Максимальный охват <br> рынка труда </div>
+                        </div>
+                        <div class="advantage__text">
+                            Задействуем более 50 источников получения
+                            потенциальных работников: помимо собственной
+                            базы применяем платные сайты, социальные сети,
+                            профессиональные форумы и конференции и др.
+                            Находим там, где другие даже не ищут!
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage__header">
+                            <img src="./assets/images/adv4.png" alt="" class="advantage__icon">
+                            <div class="advantage__title"> Контроль надежности и <br> безопасности</div>
+                        </div>
+                        <div class="advantage__text">
+                            В отличие от других кадровых агентств уделяем
+                            особое внимание этапу сбора рекомендаций от
+                            прежних работодателей. Это основа безопасности
+                            для вашего бизнеса и залог успешного результата
+                            затраченных усилий.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="title">НАМ ДОВЕРЯЮТ</div>
+            <div class="slider-container">
+                <a href="#" class="slider-nav slider-nav--left">
+                    <img src="./assets/images/left.png" alt="">
+                </a>
+                <a href="#" class="slider-nav slider-nav--right">
+                    <img src="./assets/images/right.png" alt="">
+                </a>
+                <div class="container clients-slider swiper-container">
+                    <div class="clients__items swiper-wrapper">
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c1.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c2.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c3.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c4.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c1.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c2.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c3.jpg" alt="" class="client-image">
+                        </a>
+                        <a href="#" class="client swiper-slide" target="_blank">
+                            <img src="./assets/images/c4.jpg" alt="" class="client-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="title title--white">О КОМПАНИИ</div>
+                <div class="about__container">
+                    <div class="about__text">
+                        <img src="./assets/images/logo-w.png" alt="" class="about__logo">
+                        <p>
+                            Кадровый центр «Строительное управление рекрутинга»
+                            на протяжении 15 лет развивается и растет вместе с его
+                            руководителем Котрус Максимом Александровичем,
+                            одним из ведущих профессионалов в России по подбору
+                            персонала. За этот период было обработано более
+                            1 миллиона кандидатов и многие из них были
+                            трудоустроены на вакансии от линейных специалистов
+                            до ТОП-менеджеров небольших и крупных компаний.
+                        </p>
+                    </div>
+                    <form class="about-form">
+                        <div class="about-form__title">Оставьте заявку </div>
+                        <div class="about-form__inner">
+                            <div class="form-group">
+                                <div class="form-group__title">Ваше Имя*</div>
+                                <input type="text" class="custom-input" placeholder="Введите ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group__title">Ваш Телефон*</div>
+                                <input type="text" class="custom-input custom-input--tel" required
+                                    placeholder="Введите номер">
+                            </div>
+                            <div class="submit-holder">
+                                <input type="submit" value="ЗАКАЗАТЬ" class="main-section__form-button button">
+                            </div>
+                            <div class="form-note">
+                                Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+                                политикой конфиденциальности.
+                            </div>
+                        </div>
+                        <div class="thanks thanks-block">
+                            <img src="./assets/images/thanks.png" alt="">
+                            <div class="thanks-title">Спасибо!</div>
+                            <div class="thanks-desc">
+                                Ваша заявка принята, мы свяжемся <br>
+                                в Вами в ближайшее время.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts__header">
+                <div class="container">
+                    <div class="title title--red">КОНТАКТЫ</div>
+                    <div class="contacts__header-items">
+                        <img src="./assets/images/logo.png" alt="" class="logo">
+                        <div class="nav__tels">
+                            <a href="tel:8(800)2017774" class="nav__tel">8 (800) 201 <span>77 74</span></a>
+                            <a href="tel:8(991)0337774" class="nav__tel">8 (991) 033 <span>77 74</span></a>
+                        </div>
+                        <div class="nav__tels">
+                            <a href="mailto:ipkotrus@mail.ru" class="nav__tel">ipkotrus<span>@mail.ru</span></a>
+                            <a href="mailto:mckma@mail.ru" class="nav__tel">mckma<span>@mail.ru</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="contacts__address">
+                    Адрес: 1-я Советская ул., 6, Санкт-Петербург, Ленинградская обл., 191036
+                </div>
+                <iframe src="https://yandex.ru/map-widget/v1/-/CCU4AQDDpC?lang=ru_RU" class="map" frameborder="1"
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </section>
+        <a href="#" class="to-top to-top--hidden">
+            <img src="./assets/images/top.png" alt="">
+        </a>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__nums">
+                    <div class="footer-t">
+                        <span>ИНН</span> 720309984190
+                    </div>
+                    <div class="footer-t">
+                        <span>ОГРНИП</span>32178470000467
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="footer-t">
+                        <span>2021</span> г.
+                    </div>
+                </div>
+                <div class="footer__nums">
+                    <div class="footer-t">
+                        <span>КОТРУС</span> ГРУПП
+                    </div>
+                </div>
+            </div>
+            <div class="politics-holder">
+                <a href="#" class="politics">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <div class="politic-modal modal modal--hidden">
+        <a href="#" class="arcticmodal-close">
+            <img src="./assets/images/close.png" alt="">
+        </a>
+        <p>
+            <strong> Политика конфиденциальности и защиты информации.</strong>
+        </p>
+        <p>
+            Отправляя данные на в форме заявки сайте, Вы соглашаетесь с Политикой конфиденциальности и защиты
+            информации.
+        </p>
+        <p>
+            <strong>Защита данных </strong> <br>
+            Собственник сайта не может передать или раскрыть информацию, предоставленную пользователем (далее
+            Пользователь) при регистрации и использовании функций сайта третьим лицам, кроме случаев, описанных
+            законодательством страны, на территории которой пользователь ведет свою деятельность. <br>
+            Получение персональной информации <br>
+            Для коммуникации на сайте пользователь обязан внести некоторую персональную информацию.
+            Предоставив свои персональные данные, Вы предоставляете ИП Котрус Максим Александрович (юридический адрес:
+            1-я Советская ул., 6, Санкт-Петербург, Ленинградская обл., 191036
+        </p>
+        <ol>
+            <li>Полное имя;</li>
+            <li>Адрес электронной почты;</li>
+            <li>Номер стационарного (мобильного) телефона;</li>
+            <li>Почтовый адрес;</li>
+            <li>Возраст (дата рождения) и т.д.</li>
+        </ol>
+        <p>
+            <strong>Использование персональной информации </strong>
+        </p>
+        <p>
+            Сайт использует личную информацию Пользователя для обслуживания и для улучшения качества предоставляемых
+            услуг. Часть персональной информации может быть предоставлена банку или платежной системе. Сайт прилагает
+            все усилия для сбережения в сохранности личных данных Пользователя. Личная информация может быть раскрыта в
+            случаях, описанных законодательством, либо когда администрация сочтет подобные действия необходимыми для
+            соблюдения юридической процедуры, судебного распоряжения или легального процесса необходимого для работы
+            Пользователя с Сайтом. В других случаях, ни при каких условиях, информация, которую Пользователь передает
+            Сайту, не будет раскрыта третьим лицам.
+        </p>
+    </div>
+    <div class="callback-modal modal modal--hidden">
+        <a href="#" class="arcticmodal-close"> <img src="./assets/images/close.png" alt=""> </a>
+        <div class="callback-modal-title">Заполните форму:</div>
+        <form class="callback-modal-form">
+            <div class="form-group">
+                <div class="form-group__title">Ваше Имя*</div>
+                <input type="text" class="custom-input" placeholder="Введите ваше имя" required>
+            </div>
+            <div class="form-group">
+                <div class="form-group__title">Ваш Телефон*</div>
+                <input type="text" class="custom-input custom-input--tel" required placeholder="Введите номер">
+            </div>
+            <input type="submit" value="ОТПРАВИТЬ" class="callback-modal-button button">
+            <div class="note">
+                Нажимая кнопку «Отправить» вы соглашаетесь с
+                <a href="#" class="politics">Политикой конфеденциальности</a>
+            </div>
+        </form>
+    </div>
+    <div class="thanks thanks-modal modal modal--hidden">
+        <a href="#" class="arcticmodal-close"> <img src="./assets/images/close.png" alt=""> </a>
+        <img src="./assets/images/thanks.png" alt="">
+        <div class="thanks-title">Спасибо!</div>
+        <div class="thanks-desc">
+            Ваша заявка принята, мы свяжемся <br>
+            в Вами в ближайшее время.
+        </div>
+    </div>
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/modal/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="./assets/mask/jquery.mask.js"></script>
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
